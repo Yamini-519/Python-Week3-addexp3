@@ -1,0 +1,12 @@
+import numpy 
+lst1=([1,2,3])
+lst2=([7,8,9])
+print(lst1+lst2)
+nplst1=numpy.array(lst1)
+nplst2=numpy.array(lst2)
+print("list1:",nplst1.ndim)
+print("list2:",nplst2.ndim)
+print("add:",nplst1+nplst2)
+print("multiply:",nplst1*nplst2)
+print("division:",nplst1/nplst2)
+print("sub:",nplst1-nplst2)
